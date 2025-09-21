@@ -55,6 +55,6 @@ _path == "http" id.orig_h==172.16.1.102 | SELECT user_agent
 '''
 <img width="979" height="710" alt="Screenshot from 2025-09-21 13-07-47" src="https://github.com/user-attachments/assets/b094db95-8bff-4e3a-916c-2a88c03c248a" />
 
-Task 8 : Retrace the attack; there were multiple IP addresses associated with this attack. What were two other IP addresses? Enter the IP addressed defanged and in numerical order. (format: IPADDR,IPADDR)
+Task 8 : Retrace the attack; there were multiple IP addresses associated with this attack. What were two other IP addresses? Enter the IP addressed defanged and in numerical order. (format: IPADDR,IPADDR)ss
 
 
