@@ -1,4 +1,4 @@
-
+<img width="650" height="212" alt="image" src="https://github.com/user-attachments/assets/cebfa041-d2da-4d61-9389-9ab4b44129c3" />
 <img width="650" height="212" alt="image" src="https://github.com/user-attachments/assets/bbed6211-4046-49c4-a1a4-44bcf53d33bd" />
 
 # Nmap 
@@ -21,6 +21,23 @@ nmap -Pn $target -sVC -v -oN nmap_svc.txt
 nmap -T5 -Pn $target -v --script vuln -oN vuln_scan.txt
 ```
 <img width="892" height="597" alt="image" src="https://github.com/user-attachments/assets/6c6ad12b-ac08-4739-89e5-52e4513a48e1" />
+
+```
+netexec smb $target
+```
+
+```
+netexec smb $target -u '' -p ''
+```
+
+```
+netexec smb $target -u '' -p ''
+```
+
+```
+netexec smb $target -u '' -p '' --rid-brute
+```
+
 
 <img width="932" height="446" alt="image" src="https://github.com/user-attachments/assets/d03fc78f-7f0e-421b-8556-03b054fad73e" />
 
