@@ -1,6 +1,7 @@
 
 <img width="650" height="212" alt="image" src="https://github.com/user-attachments/assets/bbed6211-4046-49c4-a1a4-44bcf53d33bd" />
 
+# Nmap 
 
 ```
 nmap -p- -Pn $target -v --min-rate 5000 max-rtt-timeout 1000 --max-retries 5 -oN nmap_ports.txt
