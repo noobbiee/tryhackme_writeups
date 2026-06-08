@@ -1,5 +1,4 @@
 <img width="650" height="212" alt="image" src="https://github.com/user-attachments/assets/cebfa041-d2da-4d61-9389-9ab4b44129c3" />
-<img width="650" height="212" alt="image" src="https://github.com/user-attachments/assets/bbed6211-4046-49c4-a1a4-44bcf53d33bd" />
 
 # Nmap 
 
