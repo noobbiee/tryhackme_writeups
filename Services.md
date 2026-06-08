@@ -22,6 +22,12 @@ nmap -T5 -Pn $target -v --script vuln -oN vuln_scan.txt
 ```
 <img width="892" height="597" alt="image" src="https://github.com/user-attachments/assets/6c6ad12b-ac08-4739-89e5-52e4513a48e1" />
 
+# Smb
+
+lets enumerate smb and try to access anonymous access
+
+We will try to enumerate users/domain using windows security identifiers
+
 ```
 netexec smb $target
 ```
