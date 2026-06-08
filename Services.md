@@ -1,6 +1,6 @@
 
+<img width="650" height="212" alt="image" src="https://github.com/user-attachments/assets/bbed6211-4046-49c4-a1a4-44bcf53d33bd" />
 
-<img width="872" height="336" alt="image" src="https://github.com/user-attachments/assets/bbc10b3b-0b31-4a26-9119-af6815ea7305" />
 
 ```
 nmap -p- -Pn $target -v --min-rate 5000 max-rtt-timeout 1000 --max-retries 5 -oN nmap_ports.txt
@@ -13,6 +13,8 @@ nmap -Pn $target -sVC -v -oN nmap_svc.txt
 <img width="911" height="668" alt="image" src="https://github.com/user-attachments/assets/a8bcb8aa-3980-4d7e-955d-23a67dc50d6f" />
 
 <img width="911" height="668" alt="image" src="https://github.com/user-attachments/assets/2a0661e9-328f-4ec5-a98f-2015067cdbc1" />
+
+<img width="872" height="336" alt="image" src="https://github.com/user-attachments/assets/bbc10b3b-0b31-4a26-9119-af6815ea7305" />
 
 ```
 nmap -T5 -Pn $target -v --script vuln -oN vuln_scan.txt
