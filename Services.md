@@ -52,6 +52,7 @@ Add domain address and ip address to the known hosts
 
 <img width="600" height="194" alt="image" src="https://github.com/user-attachments/assets/ad98ad54-d22d-482b-affd-016deda04b3e" />
 
+# lets try to enumerate using the given names
 <img width="1244" height="498" alt="image" src="https://github.com/user-attachments/assets/6b682ff3-b16f-4f40-8cfa-06c052f62ada" />
 
 <img width="911" height="217" alt="image" src="https://github.com/user-attachments/assets/cebcaff7-433b-42bc-87fc-9466d9af8ad3" />
