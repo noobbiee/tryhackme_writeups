@@ -58,10 +58,10 @@ related to the domain, users, or sometimes even credentials.
 
 After going through those files we were able to find some names which we could use to create username to perform kerbrute.
 
-Alexa Whitehat
-Jack Goldenhand
-TryHackMe
-Tony Skid
+Alexa Whitehat,
+Jack Goldenhand,
+TryHackMe,
+Tony Skid,
 Johnny Leet
 
 These are the list of names we found from the files
